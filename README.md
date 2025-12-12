@@ -138,7 +138,7 @@ Pitstop is a modern food ordering system designed for restaurants and food busin
 ### Customer Interface
 
 ![Landing Page](Customer_interface/index.png)
-![About](Customer_interface/about(1).png)
+![About](Customer_interface/about (1).png)
 ![Contact](Customer_interface/contact.png)
 ![Prompt](Customer_interface/customer_1.png)
 ![Login Page](Customer_interface/customer_2-login.png)
