@@ -200,7 +200,8 @@ Before installation, ensure you have:
 ---
 
 ## 📥 Installation
-### Step 1: Clone the Repository/Download the tar file.
+### Step 1: Clone the Repository/Download the tar file
+Extract files
 
 
 ### Step 2: Database Setup
