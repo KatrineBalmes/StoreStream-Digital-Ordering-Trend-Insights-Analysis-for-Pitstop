@@ -13,7 +13,6 @@ A complete web-based food ordering and restaurant management system featuring a 
 - [Installation](#-installation)
 - [Configuration](#-configuration)
 - [Usage Guide](#-usage-guide)
-- [File Structure](#-file-structure)
 - [Additional Guide](#-additional-guide)
 ---
 
