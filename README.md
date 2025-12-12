@@ -386,7 +386,9 @@ Edit categories in `admin_interface.html`:
 #### 1. Owner login
 1. Open `admin.html`
 2. Enter admin credentials
-3. Access admin dashboard
+   Username: owner
+   Password: PlsStopGuessing
+4. Access admin dashboard
 
 #### 2. Dashboard Overview
 - View today's metrics:
@@ -472,89 +474,6 @@ Edit categories in `admin_interface.html`:
 4. See delivery personnel performance
 5. Track payment methods
 6. Export data for accounting
-
----
-
-## 📁 File Structure
-
-```
-Pitstop/
-│
-├── 📄 index.html                    # Landing/Welcome page
-├── 📄 ordering.html                 # Customer ordering interface
-├── 📄 ordering.css                  # Customer styles
-├── 📄 ordering.js                   # Customer JavaScript
-│
-├── 👤 User Authentication
-│   ├── user_login.html              # Customer login
-│   ├── signup.html                  # Customer registration
-│   ├── signup.css                   # Signup styles
-│   ├── forgot_password.html         # Password recovery
-│   └── user.css                     # User auth styles
-│
-├── 👨‍💼 Admin Panel
-│   ├── admin.html                   # Owner login
-│   ├── admin.js                     # Owner login logic
-│   ├── admin_interface.html         # Admin dashboard
-│   ├── admin_interface.css          # Admin styles
-│   └── admin_interface.js           # Admin functionality
-│
-├── 🔧 Backend PHP Files
-│   ├── db.php                       # Database connection
-│   ├── products_get.php             # Get all products
-│   ├── products_add.php             # Add/update product
-│   ├── products_delete.php          # Delete product
-│   ├── orders_get.php               # Get all orders
-│   ├── order_submit.php             # Submit new order
-│   ├── order_update.php             # Update order status
-│   ├── customer_orders.php          # Get customer orders
-│   ├── sales_get.php                # Get sales data
-│   ├── dashboard_stats.php          # Dashboard statistics
-│   ├── delivery_personnel_get.php   # Get delivery staff
-│   ├── send_verification.php        # Email verification
-│   └── test_db.php                  # Database connection test
-│
-├── 📦 Database
-│   ├── pitstop.sql                  # Database schema
-│   └── pitstop.sql.txt              # Schema text backup
-│
-├── 📂 uploads/                      # Product images directory
-│
-├── 📧 PHPMailer/                    # Email library
-│
-├── 🖼️ Images
-│   ├── Product Images
-│   │   ├── corn dog.jpg
-│   │   ├── barbecue_nachos.jpg
-│   │   ├── marsmallow_ice cream.jpg
-│   │   ├── empanada.jpg
-│   │   ├── strawberry_frappucino.jpg
-│   │   ├── Matcha_Latte.jpg
-│   │   ├── fries.jpg
-│   │   └── icecream.jpg
-│   │
-│   ├── Carousel Images
-│   │   ├── display_1.jpg
-│   │   ├── display 2.jpg
-│   │   └── display_3.jpg
-│   │
-│   ├── UI Assets
-│   │   ├── staff.png                # Admin avatar
-│   │   ├── pay.jpg                  # GCash QR code
-│   │   ├── background intro.png
-│   │   ├── user_login background.png
-│   │   ├── topbar_background.png
-│   │   └── Pitstop_Front Design.png
-│
-├── 🎨 Styles
-│   ├── style.css                    # Landing page styles
-│   └── user.css                     # User interface styles
-│
-├── 🐛 Debug Tools
-│   └── localstorage_debug.html      # LocalStorage viewer
-│
-└── 📖 README.md                     # This file
-```
 
 ---
 
