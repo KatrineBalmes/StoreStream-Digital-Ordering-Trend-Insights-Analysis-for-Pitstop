@@ -385,8 +385,8 @@ Edit categories in `admin_interface.html`:
 #### 1. Owner login
 1. Open `admin.html`
 2. Enter admin credentials
-   Username: owner
-   Password: PlsStopGuessing
+  - Username: owner
+  - Password: PlsStopGuessing
 4. Access admin dashboard
 
 #### 2. Dashboard Overview
